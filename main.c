@@ -27,15 +27,36 @@ int main()
         {
             printf("jinruquqianxitong\n");
             int qu;
-            qian-+qu;
+            scanf("%d",&qu);
+            if(qu<qian)
+            {
+            qian-=qu;
             printf("quqianchenggong\n");
             char x;
             scanf("%c",&x);
-            scanf("%c",&x);
+            scanf("%c",&x);  
+            }
+            else{
+                printf("yu e bu zu\n");
+                char x;
+                scanf("%c",&x);
+                scanf("%c",&x);
+            }
+            
         }
         if(code==3)
+     {
+        char x;
+        printf("dangqianyuewei: %d\n",qian);
+        printf("dianjihuichehixu\n");
+        scanf("%c",&x);
+        scanf("%c",&x);
+    }
         if(code==4)
-        break;
+        {
+            printf("tuichu\n");
+            break;
+        }
     }
     return 0;
 
