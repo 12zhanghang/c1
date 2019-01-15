@@ -24,6 +24,15 @@ int main()
             scanf("%c",&x);
         }
         if(code==2)
+        {
+            printf("jinruquqianxitong\n");
+            int qu;
+            qian-+qu;
+            printf("quqianchenggong\n");
+            char x;
+            scanf("%c",&x);
+            scanf("%c",&x);
+        }
         if(code==3)
         if(code==4)
         break;
